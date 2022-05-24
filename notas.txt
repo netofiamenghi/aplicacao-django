@@ -1,0 +1,8 @@
+entrar na venv:
+venv\Scripts\activate.bat
+
+rodar servidor:
+py manage.py runserver
+
+criar app:
+py manage.py startapp nome_app
