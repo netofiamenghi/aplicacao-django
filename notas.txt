@@ -6,3 +6,11 @@ py manage.py runserver
 
 criar app:
 py manage.py startapp nome_app
+
+conexão com banco:
+- no projeto, no arquivo settings.py em DATABASES
+
+criar tabela no banco:
+1 - criar modelo dentro do app em models.py
+2 - rodar comando python manage.py makemigrations (prepara as migrações a serem feitas)
+3 - rodar comando python manage.py migrate (cria tudo o que é necessário)

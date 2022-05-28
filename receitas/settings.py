@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'receitas.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'receitas',
+        'NAME': 'alura_receita',
         'USER': 'postgres',
         'PASSWORD': 'postdba',
         'HOST': 'localhost'
